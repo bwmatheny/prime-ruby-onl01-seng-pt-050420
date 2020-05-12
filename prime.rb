@@ -3,9 +3,9 @@ def prime?(num)
     |n| if num % n == 0 return false
     else
       true
-      
+
     end
   end
-  
-  
+
+
 end
