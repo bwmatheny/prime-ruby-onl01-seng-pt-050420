@@ -1,4 +1,5 @@
-def prime?(numbers)
+def prime?(num)
+numbers = abs(num)
   n=2
   while n < numbers
     if numbers % n ==0
