@@ -1,12 +1,10 @@
 def prime?(num)
-  [2..(num - 1)].each do
-    |n| if num % n == 0
-      return false
-    else
-      true
+  n = 2
+  while n < num
+    return false if num % == 0
+    n += 1
 
     end
-  end
-
+true
 
 end
