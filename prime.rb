@@ -1,11 +1,11 @@
 def prime?(num)
-numbers = abs(num)
-  n=2
-    if numbers % n == 0
-      false
+  [2..(num - 1)].each do
+    |n| if num % n == 0 return false
     else
       true
-
+      
     end
-  n += 1
+  end
+  
+  
 end
